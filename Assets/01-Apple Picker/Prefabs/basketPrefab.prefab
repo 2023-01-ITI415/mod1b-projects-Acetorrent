@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5487597045127932231}
   - component: {fileID: 915453892003596510}
   - component: {fileID: 1993139501676646578}
-  m_Layer: 0
-  m_Name: Basket
+  m_Layer: 10
+  m_Name: basketPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
