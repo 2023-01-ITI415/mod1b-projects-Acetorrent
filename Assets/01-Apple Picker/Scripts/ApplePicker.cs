@@ -42,7 +42,7 @@ public class ApplePicker : MonoBehaviour
 
         if (basketList.Count == 0)
         {
-            SceneManager.LoadScene("Main-Apple Picker");
+            SceneManager.LoadScene("Main-ApplePicker");
         }
     }
 
