@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class RotatingPerspective : MonoBehaviour
 {
-    public float rotationSpeed;
+    public float rotationSpeed = 20;
+    public GameObject pivotObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,6 @@ public class RotatingPerspective : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(0, 0, rotationSpeed) * Time.deltaTime);
+        transform.RotateAround(pivotObject.transform.position, new Vector3(0, 0, 1), rotationSpeed * Time.deltaTime);
     }
 }
